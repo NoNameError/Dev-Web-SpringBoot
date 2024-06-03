@@ -1,4 +1,4 @@
-// Pacote controller da API
+// CLASSE DO PACOTE controller DA API
 
 package projeto.java.api.controller;
 
