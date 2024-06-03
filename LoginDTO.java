@@ -1,5 +1,6 @@
-package projeto.java.api.dto;
+// PASTA DTO da API
 
+package projeto.java.api.dto;
 
 import org.springframework.beans.BeanUtils;
 import projeto.java.api.entity.LoginEntity;
