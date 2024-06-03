@@ -1,3 +1,5 @@
+// CLASSE DO PACOTE jwt DENTRO DO PACOTE security DA API
+
 package projeto.java.api.security.jwt;
 
 import jakarta.servlet.FilterChain;
