@@ -1,4 +1,4 @@
-// PASTA repository da API
+// Pacote repository da API
 
 package projeto.java.api.repository;
 
