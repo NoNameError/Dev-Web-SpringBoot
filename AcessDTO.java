@@ -1,3 +1,4 @@
+// PASTA DTO da API
 package projeto.java.api.dto;
 
 public class AcessDTO {
