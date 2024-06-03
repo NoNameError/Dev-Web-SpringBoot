@@ -1,3 +1,5 @@
+// PASTA repository da API
+
 package projeto.java.api.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
