@@ -1,4 +1,4 @@
-// AUTENTICAÇÃO 
+// PASTA controller da API - AUTENTICAÇÃO 
 
 package projeto.java.api.controller;
 
