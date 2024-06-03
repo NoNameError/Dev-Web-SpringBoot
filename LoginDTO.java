@@ -1,4 +1,4 @@
-// PASTA DTO da API
+// Pacote DTO da API
 
 package projeto.java.api.dto;
 
