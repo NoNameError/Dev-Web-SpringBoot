@@ -1,4 +1,4 @@
-// Pacote repository da API
+// CLASSE DO PACOTE repository DA API
 
 package projeto.java.api.repository;
 
