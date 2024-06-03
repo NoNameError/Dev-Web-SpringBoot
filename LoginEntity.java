@@ -1,3 +1,5 @@
+// PASTA entity da API
+
 package projeto.java.api.entity;
 
 import java.util.Objects;
