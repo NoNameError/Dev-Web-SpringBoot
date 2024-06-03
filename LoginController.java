@@ -1,4 +1,4 @@
-// PASTA controller da API
+// Pacote controller da API
 
 package projeto.java.api.controller;
 
