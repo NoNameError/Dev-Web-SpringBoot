@@ -1,3 +1,5 @@
+// Pacote jwt dentro do pacote security da API
+
 package projeto.java.api.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
