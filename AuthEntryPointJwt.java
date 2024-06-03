@@ -1,4 +1,4 @@
-// Pacote jwt dentro do pacote security da API
+// CLASSE DO PACOTE jwt DENTRO DO PACOTE security DA API
 
 package projeto.java.api.security.jwt;
 
