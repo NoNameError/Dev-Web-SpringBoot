@@ -21,6 +21,9 @@ public class LoginService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private EmailService emailService;
+
     public List<LoginDTO> listarTodos() {
         List<LoginEntity> usuarios = loginRepository.findAll();
         return usuarios.stream().map(LoginDTO::new).toList();
@@ -30,6 +33,9 @@ public class LoginService {
         LoginEntity loginEntity = new LoginEntity(usuario);
         loginEntity.setSenha(passwordEncoder.encode(usuario.getSenha()));
         loginRepository.save(loginEntity);
+
+        // ENVIAR UM EMAIL
+        emailService.enviarEmail(usuario.getEmail(), "Seja Bem vindo","Voce esta recebendo email teste");
     }
 
     public LoginDTO alterar(LoginDTO usuario) {
