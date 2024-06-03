@@ -1,4 +1,4 @@
-// Pacote entity da API
+// CLASSE DO PACOTE entity DA API
 
 package projeto.java.api.entity;
 
