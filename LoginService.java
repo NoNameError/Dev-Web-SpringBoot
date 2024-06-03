@@ -1,4 +1,4 @@
-// Pacote service da API
+// CLASSE DO PACOTE service DA API
 
 package projeto.java.api.service;
 
