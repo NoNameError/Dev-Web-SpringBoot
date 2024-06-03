@@ -1,4 +1,4 @@
-// PASTA entity da API
+// Pacote entity da API
 
 package projeto.java.api.entity;
 
