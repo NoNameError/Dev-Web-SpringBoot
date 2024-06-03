@@ -20,6 +20,9 @@ public class RedefinicaoSenhaService {
     @Autowired
     private TokenRedefinicaoSenhaRepository tokenRepository;
 
+    @Autowired
+    private EmailService emailService;
+
     public void solicitarRedefinicaoSenha(String email){
         LoginEntity loginEntity = loginRepository.findByEmail(email);
         if (loginEntity != null) {
@@ -27,8 +30,9 @@ public class RedefinicaoSenhaService {
             token.setLoginEntity(loginEntity);
             token.setToken(UUID.randomUUID().toString());
             tokenRepository.save(token);
-
-
+            // LINK DO SITE
+            String link = "http://<seusite>.com/redefinir-senha/confirmar?token=" + token.getToken();
+            emailService.enviarEmail(email, "Redefinição de Senha", "Clique no link para redefinir sua senha: " + link);
         }
     }
     public void redefinirSenha(String token, String novaSenha){
