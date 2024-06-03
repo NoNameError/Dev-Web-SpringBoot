@@ -1,3 +1,5 @@
+// Pacote dto da API
+
 package projeto.java.api.dto;
 
 public class AuthenticationDTO {
